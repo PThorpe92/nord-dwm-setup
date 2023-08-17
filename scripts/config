@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# What modules, in what order
+MODULES="archupdates tmux volumebar localip cpuload cputemp date time"
+
+
+# Delay between showing the status bar
+DELAY="0.05"
+
+# Where the custom modules are stored
+CUSTOM_DIR="/home/$USER/.config/dwmbar/modules"
+
+# Separator between modules
+SEPARATOR=" | "
+
+# Padding at the end and beginning of the status bar
+RIGHT_PADDING=" "
+LEFT_PADDING=" "

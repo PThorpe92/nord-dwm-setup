@@ -1,0 +1,25 @@
+#!/bin/bash
+
+lockfile="/tmp/background_script.lock"
+
+# Check if the lock file exists
+if [ -e "$lockfile" ] && kill -0 $(cat "$lockfile") 2>/dev/null; then
+	echo "Another instance of the script is already running. Exiting."
+	exit 1
+fi
+
+# Create the lock file
+echo $$ >"$lockfile"
+
+# Function to remove the lock file on exit
+cleanup() {
+	rm "$lockfile"
+	exit
+}
+trap cleanup EXIT
+
+# Main loop to change the background. **********EDIT HERE**********
+while true; do
+	feh --bg-scale --randomize /home/$USER/Pictures/wallpapers/*
+	sleep 60
+done
