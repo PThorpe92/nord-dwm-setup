@@ -8,11 +8,17 @@ Some (most) of these scripts were not written by me, I just modified them. I wil
 
 
 ## Requirements:
+ - ### [DWM](https://dwm.suckless.org/) - Window Manager
+
+ - ### [DWMbar](https://github.com/joestandring/dwm-bar) - Status bar
+  - > Configuration files included in scripts for both
+
 
  - ### [rofi](https://github.com/davatorium/rofi) - Application launcher
- - > Configuration files included in scripts for both
 
   - [dmenu](https://tools.suckless.org/dmenu/) - Application launcher
+
+ - > Configuration files included in scripts for both
 
  - [feh](https://wiki.archlinux.org/title/feh) -- Only if you are a fellow Arch user who wants to have to write their own scripts just to set a Desktop background
 
@@ -29,9 +35,9 @@ Also dwm itself, Rofi/Drun, etc. for the whole Nord experience.
 
 ### Installation
 
-I highly recommend just installing DWM and then using config.h from this repo, but if you really wanted to you, Arch users could just clone this repo and run makepkg. Not recommended at all though.
+Install dwm, dwmbar, rofi, dmenu, drun, feh (and tmux, alacritty, Neovim, etc. ripgrep, fd, fzf, if you want the full terminal workflow experience. But no configs for those included here)
 
-I am going to have to reiterate on that and say I really don't recommend installing from this repo. Even though it is the latest (current) version of DWM, and it is what I am using. It's very obvious that it's best to install from your package manager.
+ After installing, swap out config.h for the one in this repo, and place the diff config files and scripts where they need to go.
 
 - I am going to assume if you are an arch user that you will know how to configure these assorted scripts, but here is a very quick rundown:
 
@@ -46,5 +52,9 @@ and place `rofi-power-menu` into /usr/bin
 `config` - is for dwmbar, and `tmux.sh` is an additional module that needs to be placed in the modules directory of your dwmbar installation.
 
 
-I'm probably typing this all for nothing, as I will be the only one using this. But hey, if you end up using it I hope you enjoy it. Any questions, let me know.
+I'm probably typing this all for nothing, as I will be the only one using this. But hey, if you end up using it I hope you enjoy it.
 
+Any questions or cannot install/configure something, just open an issue.
+
+
+### Have cool Nord themed stuff or wallpapers to add? Open a PR!
