@@ -1,4 +1,6 @@
-# Nord themed DWM setup
+<img src=/screenshots/dwm.png width="1250px">
+
+# Nord themed DWM setup + Wallpapers
 
 This repo is my personal configuration for my main machine, I was a long time i3 user but had to switch because i3 was freezing when I had dual monitors connected. I decided to look into DWM and I'm very happy with it. The keybindings were really not my style at all so these are much i3/vim inspired. 
 
@@ -24,8 +26,6 @@ Some (most) of these scripts were not written by me, I just modified them. I wil
 
  - [dwmbar](https://github.com/joestandring/dwm-bar) - Tmux module included in dwmbar folder
 
-### Nord Everything
-<img src=/screenshots/dwm.png width="1250px">
 
 Every wallpaper is Nord themed. Most of them came from repos like \
 `https://github.com/linuxdotexe/nordic-wallpapers`
