@@ -51,6 +51,7 @@ and place `rofi-power-menu` into /usr/bin
 
 `config` - is for dwmbar, and `tmux.sh` is an additional module that needs to be placed in the modules directory of your dwmbar installation.
 
+ - NeoVim theme [nordfox](https://github.com/EdenEast/nightfox.nvim) not incldued, but if you are interested. The regular Nord theme is great but eventually you start missing some color. 
 
 I'm probably typing this all for nothing, as I will be the only one using this. But hey, if you end up using it I hope you enjoy it.
 
